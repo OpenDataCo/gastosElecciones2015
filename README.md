@@ -1,3 +1,22 @@
+# Datos Financieros Elecciones Territoriales 2015
+
+
+Fuente: http://www.cnecuentasclaras.com/
+
+Datos de la registraduría concernientes a reportes financieros de las campañas políticas de candidatos a Alcaldías, Asambleas y Juntas Locales.
+
+Solo dos formularios fueron scrapeados:
+ -  `Formulario5`: Contiene informacion financiera en general
+ -  `Formulario52b`: Contiene informacion detallada de donaciones
+
+
+## Dataset
+
+Cada linea del archivo contiene un archivo json como el siguiente:
+
+
+
+```json
 {
     "IdOrganizacion": 14,
     "description_election": "Gobernación 2015 - 2019 (25/10/2015)",
@@ -137,3 +156,4 @@
     "DocumentoFormulario": null,
     "IdMunicipio": ""
 }
+```
